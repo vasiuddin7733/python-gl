@@ -7,7 +7,8 @@ print("Hello, I am vasiuddin mohammed")
 this is multi line comments
 '''
 
-a = 1
+#variable
+a = 112
 b = "apple"
 
 print(a,b)
@@ -17,6 +18,7 @@ c = 1232
 d = 0.1235
 e = False
 
+#type of variable
 print(type(c),type(d),type(e))
 
 print(True == 1)
@@ -54,25 +56,15 @@ for i in range(1,10):
 
 j = "OsmaniaUnversity"
 
-# pass
-for i in j:
-   if i=="U":
-     pass
-   print(i)
-
-# break
+#break
 for i in j:
    if i=="U":
     break
    print(i)
 
    
-# continue
+#continue
 for i in j:
    if i=="U":
     continue
    print(i)
-
-   
-
-
