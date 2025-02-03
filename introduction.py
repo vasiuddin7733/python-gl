@@ -1,6 +1,9 @@
 
 #  Introduction
 
+#import a function
+import functions
+
 print("Hello, I am vasiuddin mohammed")
 
 '''
@@ -68,3 +71,6 @@ for i in j:
    if i=="U":
     continue
    print(i)
+
+functions.add(2,6)
+functions.sub(78,36)
